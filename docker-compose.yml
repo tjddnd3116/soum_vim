@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  soum_vim:
+    image: soum_vim:0.1
+    container_name: soum_vim
+    build:
+      context: ./soum_vim
+    restart: unless-stopped
+    volumes:
+      - ~/workspace:/workspace
