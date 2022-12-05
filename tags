@@ -1,0 +1,106 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+<C-W>+	soum_vim/config/init.vim	/^nmap <C-W>+ <C-W>=<SID>ws$/;"	m
+<C-W>-	soum_vim/config/init.vim	/^nmap <C-W>- <C-W>-<SID>ws$/;"	m
+<C-W><	soum_vim/config/init.vim	/^nmap <C-W>< <C-W><<SID>ws$/;"	m
+<C-W>=	soum_vim/config/init.vim	/^nmap <C-W>= <C-W>+<SID>ws$/;"	m
+<C-W>>	soum_vim/config/init.vim	/^nmap <C-W>> <C-W>><SID>ws$/;"	m
+<C-a>	soum_vim/config/init.vim	/^nnoremap <C-a> <C-]>$/;"	m
+<C-h>	soum_vim/config/init.vim	/^nmap <C-h> <C-w>h$/;"	m
+<C-j>	soum_vim/config/init.vim	/^nmap <C-j> <C-w>j$/;"	m
+<C-k>	soum_vim/config/init.vim	/^nmap <C-k> <C-w>k$/;"	m
+<C-l>	soum_vim/config/init.vim	/^nmap <C-l> <C-w>l$/;"	m
+<C-s>	soum_vim/config/init.vim	/^nnoremap <C-s> <C-t>$/;"	m
+<CR>	soum_vim/config/init.vim	/^  inoremap <expr> <CR> InsertMapForEnter()$/;"	m
+<F2>	soum_vim/config/init.vim	/^nmap <F2> :NERDTreeToggle<CR>$/;"	m
+<F3>	soum_vim/config/init.vim	/^nmap <F3> :TagbarToggle<CR>$/;"	m
+<HOME>	soum_vim/config/init.vim	/^nmap <HOME> :SyntasticToggleMode<CR>$/;"	m
+<Leader>di	soum_vim/config/init.vim	/^nmap <Leader>di <Plug>VimspectorBalloonEval$/;"	m
+<Leader>m<space>	soum_vim/config/init.vim	/^nmap <Leader>m<space> <plug>NERDCommenterInvert$/;"	m
+<SID>ws	soum_vim/config/init.vim	/^nmap <SID>ws <Nop>$/;"	m
+<cr>	soum_vim/config/init.vim	/^    imap <expr> <cr> pumvisible() ? "\\<C-y>" : "\\<C-g>u\\<CR>"$/;"	m
+<cr>	soum_vim/config/init.vim	/^    inoremap <expr> <cr> complete_info()["selected"] != "-1" ? "\\<C-y>" : "\\<C-g>u\\<CR>"$/;"	m
+<leader>aa	soum_vim/config/init.vim	/^nmap <leader>aa <Plug>VimspectorUpFrame$/;"	m
+<leader>cl	soum_vim/config/init.vim	/^nmap <leader>cl  <Plug>(coc-codelens-action)$/;"	m
+<leader>dc	soum_vim/config/init.vim	/^nmap <leader>dc :!cc -g -I.\/libft\/libft.h -L.\/libft\/ -lft % -o main<CR>$/;"	m
+<leader>dd	soum_vim/config/init.vim	/^nmap <leader>dd :call vimspector#Launch()<CR>$/;"	m
+<leader>de	soum_vim/config/init.vim	/^nmap <leader>de :VimspectorEval$/;"	m
+<leader>do	soum_vim/config/init.vim	/^nmap <leader>do :VimspectorShowOutput$/;"	m
+<leader>dw	soum_vim/config/init.vim	/^nmap <leader>dw :VimspectorWatch$/;"	m
+<leader>dx	soum_vim/config/init.vim	/^nmap <leader>dx :VimspectorReset<CR>$/;"	m
+<leader>mm	soum_vim/config/init.vim	/^nmap <leader>mm <plug>NERDCommenterToggle$/;"	m
+<leader>qf	soum_vim/config/init.vim	/^nmap <leader>qf  <Plug>(coc-fix-current)$/;"	m
+<leader>rn	soum_vim/config/init.vim	/^nmap <leader>rn <Plug>(coc-rename)$/;"	m
+<leader>ss	soum_vim/config/init.vim	/^nmap <leader>ss <Plug>VimspectorDownFrame$/;"	m
+<nowait><expr>	soum_vim/config/init.vim	/^  inoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? "\\<c-r>=coc#float#scroll(0)\\<cr>" : "\\<Left>"$/;"	m
+<nowait><expr>	soum_vim/config/init.vim	/^  inoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? "\\<c-r>=coc#float#scroll(1)\\<cr>" : "\\<Right>"$/;"	m
+<nowait><expr>	soum_vim/config/init.vim	/^  nnoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(0) : "\\<C-b>"$/;"	m
+<nowait><expr>	soum_vim/config/init.vim	/^  nnoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? coc#float#scroll(1) : "\\<C-f>"$/;"	m
+<nowait><expr>	soum_vim/config/init.vim	/^  vnoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(0) : "\\<C-b>"$/;"	m
+<nowait><expr>	soum_vim/config/init.vim	/^  vnoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? coc#float#scroll(1) : "\\<C-f>"$/;"	m
+InsertMapForEnter	soum_vim/config/init.vim	/^  function! InsertMapForEnter()$/;"	f
+J	soum_vim/config/init.vim	/^nnoremap <silent> J :call <SID>show_documentation()<CR>$/;"	m
+NERDTreeShowHidden	soum_vim/config/init.vim	/^let NERDTreeShowHidden=1$/;"	v
+[g	soum_vim/config/init.vim	/^nmap <silent> [g <Plug>(coc-diagnostic-prev)$/;"	m
+]g	soum_vim/config/init.vim	/^nmap <silent> ]g <Plug>(coc-diagnostic-next)$/;"	m
+ac	soum_vim/config/init.vim	/^omap ac <Plug>(coc-classobj-a)$/;"	m
+af	soum_vim/config/init.vim	/^omap af <Plug>(coc-funcobj-a)$/;"	m
+delimitMate_expand_cr	soum_vim/config/init.vim	/^let delimitMate_expand_cr=1$/;"	v
+delimitMate_matchpairs	soum_vim/config/init.vim	/^let delimitMate_matchpairs = "(:),[:],{:}"$/;"	v
+g:NERDAltDelims_java	soum_vim/config/init.vim	/^let g:NERDAltDelims_java = 1$/;"	v
+g:NERDCommentEmptyLines	soum_vim/config/init.vim	/^let g:NERDCommentEmptyLines = 1$/;"	v
+g:NERDCompactSexyComs	soum_vim/config/init.vim	/^let g:NERDCompactSexyComs = 1$/;"	v
+g:NERDCustomDelimiters	soum_vim/config/init.vim	/^let g:NERDCustomDelimiters = { 'c': { 'left': '\/**','right': '*\/' } }$/;"	v
+g:NERDDefaultAlign	soum_vim/config/init.vim	/^let g:NERDDefaultAlign = 'left'$/;"	v
+g:NERDSpaceDelims	soum_vim/config/init.vim	/^let g:NERDSpaceDelims = 1$/;"	v
+g:NERDTreeWinSize	soum_vim/config/init.vim	/^let g:NERDTreeWinSize=20$/;"	v
+g:NERDTrimTrailingWhitespace	soum_vim/config/init.vim	/^let g:NERDTrimTrailingWhitespace = 1$/;"	v
+g:airline#extensions#gutentags#enabled	soum_vim/config/init.vim	/^let g:airline#extensions#gutentags#enabled = 1$/;"	v
+g:better_whitespace_enabled	soum_vim/config/init.vim	/^let g:better_whitespace_enabled=1$/;"	v
+g:better_whitespace_guicolor	soum_vim/config/init.vim	/^let g:better_whitespace_guicolor='Skyblue'$/;"	v
+g:c_syntax_for_h	soum_vim/config/init.vim	/^let g:c_syntax_for_h = 1$/;"	v
+g:cpp_attributes_highlight	soum_vim/config/init.vim	/^let g:cpp_attributes_highlight = 0$/;"	v
+g:cpp_function_highlight	soum_vim/config/init.vim	/^let g:cpp_function_highlight = 0$/;"	v
+g:cpp_helper_after_creation	soum_vim/config/init.vim	/^let g:cpp_helper_after_creation = 1$/;"	v
+g:cpp_helper_bracket_style	soum_vim/config/init.vim	/^let g:cpp_helper_bracket_style = 1$/;"	v
+g:cpp_helper_declaration_offset	soum_vim/config/init.vim	/^let g:cpp_helper_declaration_offset = 0$/;"	v
+g:cpp_helper_header_extension	soum_vim/config/init.vim	/^let g:cpp_helper_header_extension = ".hpp"$/;"	v
+g:cpp_helper_implementation_offset	soum_vim/config/init.vim	/^let g:cpp_helper_implementation_offset = 1$/;"	v
+g:cpp_helper_inclusion_guard_flavour	soum_vim/config/init.vim	/^let g:cpp_helper_inclusion_guard_flavour = 1$/;"	v
+g:cpp_helper_inclusion_guard_format	soum_vim/config/init.vim	/^let g:cpp_helper_inclusion_guard_format = "%s_hpp"$/;"	v
+g:cpp_helper_scope_marker_indent	soum_vim/config/init.vim	/^let g:cpp_helper_scope_marker_indent = 2$/;"	v
+g:cpp_helper_source_extension	soum_vim/config/init.vim	/^let g:cpp_helper_source_extension = ".cpp"$/;"	v
+g:cpp_helper_wipe_buffers	soum_vim/config/init.vim	/^let g:cpp_helper_wipe_buffers = 1$/;"	v
+g:cpp_member_highlight	soum_vim/config/init.vim	/^let g:cpp_member_highlight = 1$/;"	v
+g:cpp_simple_highlight	soum_vim/config/init.vim	/^let g:cpp_simple_highlight = 1$/;"	v
+g:dracula_lualine_bg_color	soum_vim/config/init.vim	/^let g:dracula_lualine_bg_color = "#44475a"$/;"	v
+g:dracula_show_end_of_buffer	soum_vim/config/init.vim	/^let g:dracula_show_end_of_buffer = 1$/;"	v
+g:dracula_transparent_bg	soum_vim/config/init.vim	/^let g:dracula_transparent_bg = 1$/;"	v
+g:floaterm_keymap_toggle	soum_vim/config/init.vim	/^let g:floaterm_keymap_toggle = '<Leader>tt'$/;"	v
+g:gutentags_project_root	soum_vim/config/init.vim	/^let g:gutentags_project_root = ['Makefile']$/;"	v
+g:hdr42mail	soum_vim/config/init.vim	/^let g:hdr42mail = 'soum@student.42seoul.kr'$/;"	v
+g:hdr42user	soum_vim/config/init.vim	/^let g:hdr42user = 'soum'$/;"	v
+g:strip_whitespace_on_save	soum_vim/config/init.vim	/^let g:strip_whitespace_on_save=0$/;"	v
+g:syntastic_aggregate_errors	soum_vim/config/init.vim	/^let g:syntastic_aggregate_errors = 1$/;"	v
+g:syntastic_always_populate_loc_list	soum_vim/config/init.vim	/^let g:syntastic_always_populate_loc_list = 1$/;"	v
+g:syntastic_auto_loc_list	soum_vim/config/init.vim	/^let g:syntastic_auto_loc_list = 0$/;"	v
+g:syntastic_c_checkers	soum_vim/config/init.vim	/^let g:syntastic_c_checkers = ['norminette', 'gcc']$/;"	v
+g:syntastic_c_include_dirs	soum_vim/config/init.vim	/^let g:syntastic_c_include_dirs = ['include', '..\/include', '..\/..\/include', 'libft', '..\/libft\/include', '..\/..\/libft\/include']$/;"	v
+g:syntastic_c_norminette_args	soum_vim/config/init.vim	/^let g:syntastic_c_norminette_args = '-R CheckForbiddenSourceHeaer'$/;"	v
+g:syntastic_check_on_open	soum_vim/config/init.vim	/^let g:syntastic_check_on_open = 0$/;"	v
+g:syntastic_check_on_wq	soum_vim/config/init.vim	/^let g:syntastic_check_on_wq = 0$/;"	v
+g:tagbar_position	soum_vim/config/init.vim	/^let g:tagbar_position = 'rightbelow'$/;"	v
+g:tagbar_width	soum_vim/config/init.vim	/^let g:tagbar_width=30$/;"	v
+g:vimspector_enable_mappings	soum_vim/config/init.vim	/^let g:vimspector_enable_mappings = 'HUMAN'$/;"	v
+gd	soum_vim/config/init.vim	/^nmap <silent> gd <Plug>(coc-definition)$/;"	m
+gi	soum_vim/config/init.vim	/^nmap <silent> gi <Plug>(coc-implementation)$/;"	m
+gr	soum_vim/config/init.vim	/^nmap <silent> gr <Plug>(coc-references)$/;"	m
+gy	soum_vim/config/init.vim	/^nmap <silent> gy <Plug>(coc-type-definition)$/;"	m
+ic	soum_vim/config/init.vim	/^omap ic <Plug>(coc-classobj-i)$/;"	m
+if	soum_vim/config/init.vim	/^omap if <Plug>(coc-funcobj-i)$/;"	m
+mapleader	soum_vim/config/init.vim	/^let mapleader = ","$/;"	v
+show_documentation	soum_vim/config/init.vim	/^function! s:show_documentation()$/;"	f
